@@ -29,4 +29,10 @@ public class EstudanteRepository {
 	public Estudante findEstudante(String rga) {
 		return estudantes.get(rga);
 	}
+	
+	public void addEstudante(Estudante estudante) {
+		estudantes.put(estudante.getRga(), estudante);
+	}
+	
+	
 }

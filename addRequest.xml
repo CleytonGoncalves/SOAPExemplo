@@ -1,0 +1,11 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:gs="br.ufmt.ic.sd.soap/estudantes">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <gs:addEstudanteRequest>
+            <gs:rga>201611310025</gs:rga>
+            <gs:nome>Batman</gs:nome>
+            <gs:curso>Psicologia</gs:curso>
+        </gs:addEstudanteRequest>
+    </soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,9 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:gs="br.ufmt.ic.sd.soap/estudantes">
+<soapenv:Header/>
+<soapenv:Body>
+    <gs:getEstudanteRequest>
+        <gs:rga>201611310025</gs:rga>
+    </gs:getEstudanteRequest>
+</soapenv:Body>
+</soapenv:Envelope>

@@ -12,6 +12,16 @@
         </xs:complexType>
     </xs:element>
 
+    <xs:element name="addEstudanteRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="rga" type="xs:string"/>
+                <xs:element name="nome" type="xs:string"/>
+                <xs:element name="curso" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
     <xs:element name="getEstudanteResponse">
         <xs:complexType>
             <xs:sequence>
